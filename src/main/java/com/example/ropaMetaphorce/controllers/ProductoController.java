@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("api/v1/usuario")
+@RequestMapping("api/v1/producto")
 public class ProductoController {
     private final ProductoService productoService;
     public ProductoController(ProductoService productoService) {
